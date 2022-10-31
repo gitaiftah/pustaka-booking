@@ -2,8 +2,8 @@
   <hr class="sidebar-divider">
   <div class="container ml-4">
 
-<a href="siswa/tambah" type="submit" class="btn btn-primary">Tambah Siswa</a>
-</div>
+    <a href="tambah" type="submit" class="btn btn-primary">Tambah Siswa</a>
+  </div>
   <!-- row table-->
   <div class="row">
     <div class="table-responsive table-bordered col-lg-11 ml-auto mr-auto mt-2">
