@@ -23,7 +23,7 @@
 <li class="nav-item">
     <a class="nav-link pb-0" href="<?= base_url('admin'); ?>">
         <i class="fa fa-fw fa book"></i>
-        <span class="fa fa-home" aria-hidden="true"> Dashboard</span></a>
+        <span class="fa fa-home" aria-hidden="true"> Beranda</span></a>
 </li>
 </li>
 
@@ -38,24 +38,19 @@
 <li class="nav-item active">
     <!-- Nav Item - Dashboard -->
 <li class="nav-item">
-    <a class="nav-link pb-0" href="<?= base_url('pinjam'); ?>">
+    <a class="nav-link pb-0" href="<?= base_url('buku/kategori'); ?>">
         <i class="fa fa-fw fa book"></i>
-        <span class=" fas fa-book"> Data Peminjaman</span></a>
+        <span class=" fas fa-book"> Kategori</span></a>
 </li>
 <li class="nav-item">
-    <a class="nav-link pb-0" href="<?= base_url('pinjam/daftarBooking'); ?>">
+    <a class="nav-link pb-0" href="<?= base_url('buku'); ?>">
         <i class="fa fa-fw fa book"></i>
-        <span class=" fas fa-book"> Data Booking</span></a>
+        <span class=" fas fa-book"> Data Buku</span></a>
 </li>
 <li class="nav-item">
-    <a class="nav-link pb-0" href="<?= base_url('user/anggota'); ?>">
+    <a class="nav-link pb-0" href="<?= base_url('user'); ?>">
         <i class="fa fa-fw fa book"></i>
         <span class="fas fa-users"> Data Anggota</span></a>
-</li>
-<li class="nav-item">
-    <a class="nav-link pb-0" href="<?= base_url('siswa'); ?>">
-        <i class="fa fa-fw fa book"></i>
-        <span class="fas fa-users"> Data Siswa</span></a>
 </li>
 </li>
 <!-- Divider -->
@@ -92,17 +87,17 @@
 <li class="nav-item active">
     <!-- Nav Item - Dashboard -->
 <li class="nav-item">
-    <a class="nav-link pb-0" href="<?= base_url('Laporan/laporan_buku'); ?>">
+    <a class="nav-link pb-0" href="<?= base_url('laporan/laporan_buku'); ?>">
         <i class="fa fa-fw fa book"></i>
         <span class=" fas fa-book"> Laporan Data Buku</span></a>
 </li>
 <li class="nav-item">
-    <a class="nav-link pb-0" href="<?= base_url('Laporan/laporan_anggota'); ?>">
+    <a class="nav-link pb-0" href="<?= base_url('laporan/laporan_anggota'); ?>">
         <i class="fa fa-fw fa book"></i>
         <span class="fas fa-users"> Laporan Data Anggota</span></a>
 </li>
 <li class="nav-item">
-    <a class="nav-link pb-0" href="<?= base_url('Laporan/laporan_pinjam'); ?>">
+    <a class="nav-link pb-0" href="<?= base_url('laporan/laporan_pinjam'); ?>">
         <i class="fa fa-fw fa book"></i>
         <span class="fas fa-shopping-cart"> Laporan Peminjaman</span></a>
 </li>

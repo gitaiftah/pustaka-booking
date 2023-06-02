@@ -62,7 +62,7 @@ class Pinjam extends CI_Controller
             'id_booking' => $id_booking,
             'tgl_pinjam' => $tglsekarang,
             'id_user' => $bo->id_user,
-            'tgl_kembali' => date('Y-md', strtotime('+' . $lama . ' days', strtotime($tglsekarang))),
+            'tgl_kembali' => date('Y-m-d', strtotime('+' . $lama . ' days', strtotime($tglsekarang))),
             'tgl_pengembalian' => '0000-00-00',
             'status' => 'Pinjam',
             'total_denda' => 0

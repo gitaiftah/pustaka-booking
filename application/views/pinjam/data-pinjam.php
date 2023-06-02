@@ -4,7 +4,7 @@
             <tr>
                 <td>
                     <div class="table-responsive full-width">
-                        <table class="table table-bordered table-striped tablehover" id="table-datatable">
+                        <table class="table table-bordered table-striped table-hover" id="table-datatable">
                             <tr>
                                 <th>No Pinjam</th>
                                 <th>Tanggal Pinjam</th>
@@ -61,9 +61,9 @@
                                     </td>
                                     <td nowrap>
                                         <?php if ($p['status'] == "Kembali") { ?>
-                                            <i class="btn btn-sm btn-outlinesecondary"><i class="fas fa-fw fa-edit"></i>Ubah Status</i>
+                                            <i class="btn btn-sm btn-outline-secondary"><i class="fas fa-fw fa-edit"></i>Ubah Status</i>
                                         <?php } else { ?>
-                                            <a class="btn btn-sm btn-outlineinfo" href="<?= base_url('pinjam/ubahStatus/' . $p['id_buku'] . '/' . $p['no_pinjam']); ?>"><i class="fas fa-fw fa-edit"></i>Ubah Status</a>
+                                            <a class="btn btn-sm btn-outline-info" href="<?= base_url('pinjam/ubahStatus/' . $p['id_buku'] . '/' . $p['no_pinjam']); ?>"><i class="fas fa-fw fa-edit"></i>Ubah Status</a>
                                         <?php } ?>
                                     </td>
                                 </tr>
